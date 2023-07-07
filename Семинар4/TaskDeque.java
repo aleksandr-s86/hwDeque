@@ -4,11 +4,12 @@ import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.Deque;
 
-public class TaskSem4 {
+public class TaskDeque {
+    
     public static void main(String[] args) {
         Deque<Integer> d1 = new ArrayDeque<>(Arrays.asList(-1,2,3));
         Deque<Integer> d2 = new ArrayDeque<>(Arrays.asList(5,4,7));
-        TaskSem4 task = new TaskSem4();
+        TaskDeque task = new TaskDeque();
         //Deque<Integer> summa = task.sum(d1, d2);
         Deque<Integer> comp = task.composition(d1, d2);
         //System.out.println(summa);
@@ -54,5 +55,8 @@ public class TaskSem4 {
     }
     
 }
+    
+
+
     
 
